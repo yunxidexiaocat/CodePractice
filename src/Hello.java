@@ -11,7 +11,11 @@ public class Hello {
             if (b == 0 || c == 0) {
                 System.out.println(a);
             }
+            print(a);
         }
+    }
+    static void print(Object object) {
+        System.out.println(object);
     }
 }
 
