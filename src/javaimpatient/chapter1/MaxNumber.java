@@ -15,15 +15,13 @@ public class MaxNumber {
         int a = firstNumber;
         int b = secondNumber;
         int c = thirdNumber;
-        if (a >= b && a>=c) {
+        if (a >= b && a >= c) {
             print(a);
         }
-        if(b>=a && b>c){
+        else if (b >= a && b > c) {
             print(b);
         }
-        if(c>a && c>b){
-            print(c);
-        }
+        print(c);
         print(Math.max(Math.max(a, b), c));
     }
 
