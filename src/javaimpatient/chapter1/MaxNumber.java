@@ -15,39 +15,14 @@ public class MaxNumber {
         int a = firstNumber;
         int b = secondNumber;
         int c = thirdNumber;
-        if (a < b) {
-            if (b == c) {
-                print(b);
-            }
-            if (b < c) {
-                print(c);
-            }
-            if (b > c) {
-                print(b);
-            }
-
+        if (a >= b && a>=c) {
+            print(a);
         }
-        if (a == b) {
-            if (b == c) {
-                print(a);
-            }
-            if (b < c) {
-                print(c);
-            }
-            if (b > c) {
-                print(b);
-            }
+        if(b>=a && b>c){
+            print(b);
         }
-        if (a > b) {
-            if (a > c) {
-                print(a);
-            }
-            if (a == c) {
-                print(a);
-            }
-            if (a < c) {
-                print(c);
-            }
+        if(c>a && c>b){
+            print(c);
         }
         print(Math.max(Math.max(a, b), c));
     }
