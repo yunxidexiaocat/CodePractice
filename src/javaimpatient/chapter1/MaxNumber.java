@@ -22,35 +22,35 @@ public class MaxNumber {
             if (b < c) {
                 print(c);
             }
-            if (b > c){
+            if (b > c) {
                 print(b);
-        }
+            }
 
-    }
-        if (a == b){
-            if(b==c) {
+        }
+        if (a == b) {
+            if (b == c) {
                 print(a);
             }
-            if(b<c){
-              print(c);
+            if (b < c) {
+                print(c);
             }
-            if(b>c){
+            if (b > c) {
                 print(b);
             }
         }
-        if (a>b){
-            if(a>c){
+        if (a > b) {
+            if (a > c) {
                 print(a);
             }
-            if(a==c){
+            if (a == c) {
                 print(a);
             }
-            if(a<c){
+            if (a < c) {
                 print(c);
             }
         }
-      print(Math.max( Math.max(a,b),c));
-}
+        print(Math.max(Math.max(a, b), c));
+    }
 
     static void print(Object object) {
         System.out.println(object);
