@@ -1,6 +1,4 @@
 package javaimpatient.chapter1;
-
-//import javax.print.attribute.IntegerSyntax;
 /**
  * Created by yunxi on 16/3/19.
  */
