@@ -3,7 +3,8 @@
  */
 public class practice102 {
     public static void main(String[] args) {
-        int a =444;
+        int a=(int)(Math.random()*300);
+
 
     }
     static void print(Object object){
