@@ -10,7 +10,7 @@ public class practice101 {
         Scanner input = new Scanner(System.in);
         print("请输入一个数字");
         int  number = input.nextInt();
-        print(" "+number);
+        print(number);
         print(Integer.toBinaryString(number));
         print(Integer.toOctalString(number));
         print(Integer.toHexString(number));
