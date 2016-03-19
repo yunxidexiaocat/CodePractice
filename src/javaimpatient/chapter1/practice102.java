@@ -1,3 +1,5 @@
+package javaimpatient.chapter1;
+
 /**
  * Created by yunxi on 16/3/19.
  */
