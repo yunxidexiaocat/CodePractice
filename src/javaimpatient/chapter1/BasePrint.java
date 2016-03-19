@@ -1,13 +1,11 @@
 package javaimpatient.chapter1;
 
-import javax.print.attribute.IntegerSyntax;
-        import java.util.Scanner;
-
+//import javax.print.attribute.IntegerSyntax;
 /**
  * Created by yunxi on 16/3/19.
  */
 import java.util.Scanner;
-public class practice101 {
+public class BasePrint {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         print("请输入一个数字");
